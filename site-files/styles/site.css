@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght,CASL@600,0.5&display=swap");
+
+@font-face {
+    font-family: "linjapona";
+    src: url("../fonts/linja-pona-4.9.otf");
+}
+
+.toki-pona {
+    font-family: "linjapona";
+}
+
 body {
     background-color: white;
 }
