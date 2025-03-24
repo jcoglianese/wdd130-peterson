@@ -2,11 +2,12 @@
 
 @font-face {
     font-family: "linjapona";
-    src: url("../fonts/linja-pona-4.9.otf");
+    src: url("/lipu_sona/fonts/linja-pona-4.9.otf");
 }
 
 .toki-pona {
     font-family: "linjapona";
+    font-weight: bold;
 }
 
 body {
@@ -79,4 +80,9 @@ nav a:hover {
     color: #005d49;
     background-color: #ffc042;
     border-radius: 5px;
+}
+
+#title{
+    text-align: center;
+    font-size: 4em;
 }

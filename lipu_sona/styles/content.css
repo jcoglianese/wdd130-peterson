@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "linjapona";
+    src: url("../fonts/linja-pona-4.9.otf");
+}
+
+.tp {
+    font-family: "linjapona";
+    font-weight: bold;
+}
