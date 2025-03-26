@@ -10,8 +10,17 @@
     font-weight: bold;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    min-height: 100vh;
 }
 
 /* Logo */
@@ -85,4 +94,43 @@ nav a:hover {
 #title{
     text-align: center;
     font-size: 4em;
+}
+
+.grid-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: 1fr 1fr;     
+    gap: 20px;                       
+    height: 80vh;                    
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+footer {
+    background: #f1f1f1; 
+    padding: 20px;
+    text-align: center;
+    width: 198%;
+    
 }
