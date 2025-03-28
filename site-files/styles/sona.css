@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght,CASL@600,0.5&display=swap");
+
+@font-face {
+    font-family: "linjapona";
+    src: url("/lipu_sona/fonts/linja-pona-4.9.otf");
+}
+
+.toki-pona {
+    font-family: "linjapona";
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+}
+
+.center {
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1em;
+}
+
+/* Logo */
+#logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: right;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and nav */
+    background: #005d49;
+    height: 70px;
+    padding: 0 20px; /* Adds space on the sides */
+    border: 2px solid  #001b3a;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav li {
+    display: inline;
+}
+#active-page{
+    color: #005d49;
+    background-color: #ffc042;
+    border-radius: 5px;
+    
+}
+
+/* Links */
+nav a {
+    color: #ffc042;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #005d49;
+    background-color: #ffc042;
+    border-radius: 5px;
+}
+
+/*after the nav bar*/
+
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "linjapona";
+    font-weight: bold;
+    font-size: 4rem;
+    color: #001b3a;
+}
+.header h2 {
+    font-family: "Recursive";
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #850b00;
+    padding: 3% 3% 3% 3%;
+}
+
+h3 {
+    font-family: "Recursive";
+    margin: 0 auto;
+    color: #001b3a;
+}
+
+h4 {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #001b3a;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #001b3a;
+}
+
+ul {
+    margin: 0 auto;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001b3a;
+}
+
+section {
+    display: flex;
+    justify-content: space-between; /* Ensures left and right sections */
+    align-items: stretch; /* Ensures items fill their container */
+    gap: 1em; /* Provides spacing between items */
+}
+
+section p {
+    flex: 1; /* Takes up half of the section */
+    margin-right: 2em; /* Adds space between the text and right column */
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column; /* Stacks list and image vertically */
+    flex: 1; /* Takes up the right half of the section */
+    gap: 1em;
+}
+
+.list {
+    flex: 1; /* Takes 50% of the right side */
+}
+
+section img, 
+section iframe {
+    flex: 1; /* Takes 50% of the right side */
+    height: 100%; /* Makes sure they fill their container */
+    width: 100%; /* Keeps it responsive */
+    object-fit: cover; /* Ensures images don't stretch weirdly */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and nav */
+    background: #005d49;
+    height: 70px;
+    padding: 0 20px; /* Adds space on the sides */
+    border: 2px solid  #001b3a;
+}
+
+footer p {
+    color: #ffc042;
+}
