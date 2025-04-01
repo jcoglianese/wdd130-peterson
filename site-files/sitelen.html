@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitelen Page</title>
+        <link rel="stylesheet" type="text/css" href="../site-files/styles/site.css">
 
-    <link rel="stylesheet" type="text/css" href="../site-files/styles/site.css">
+    <style>
+        h2 {
+            margin: auto;
+            font-size: 3em;
+        }
+
+        h1 {
+            font-size: 4em;
+        }
+    </style>
+
 </head>
+
+
 <body>
      
         <header>
@@ -24,22 +37,26 @@
             
         </header>
 
+        
 
-        <h1>Writing</h1>
 
-        <p class="grid-item">sitelen pona [Link it to: https://sona.pona.la/wiki/sitelen_pona] is a logographic writing sytstem for toki pona, designed by Sonja Lang. As a logography, each word is written with it's own symbol. It is typically written from left to right, in horizontal lines from top to bottom.
+        <h1 style="margin: auto; padding: 3%;">Writing</h1>
+
+        <div class="grid-container2">
+
+        <p class="grid-item" style="grid-row: 1/2; grid-column: 1 / 4;">sitelen pona [Link it to: https://sona.pona.la/wiki/sitelen_pona] is a logographic writing sytstem for toki pona, designed by Sonja Lang. As a logography, each word is written with it's own symbol. It is typically written from left to right, in horizontal lines from top to bottom.
 
             There are two different ways that individuals normally type sitelen pona. The first (and most common) way is to render text while you type it with a special font. This way you can type in latin characters while the font displays it in sitelen pona. Go ahead, give it a try!</p>
 
-        <h2>Punctuation</h2>
+        <h2 style="grid-row: 2 / 3; grid-column: 1 / 2;">Punctuation</h2>
 
-        <p class="grid-item">toki pona does not define common methods of quoting text, adding punctuation, or even ending sentences. For longer sitelen pona texts, it is common to end a sentence in a period, regardless of if the sentence was an exclamation, question, or merely a comment. For shorter texts, it is common to list each sentence on a separate line, with no punctuation.
+        <p class="grid-item" style="grid-row: 3 / 6; grid-column: 1 / 2;">toki pona does not define common methods of quoting text, adding punctuation, or even ending sentences. For longer sitelen pona texts, it is common to end a sentence in a period, regardless of if the sentence was an exclamation, question, or merely a comment. For shorter texts, it is common to list each sentence on a separate line, with no punctuation.
 
             Due to the nature of a logographic language, sitelen pona can have certain common groups of words, or lexicals (such as "toki pona") grouped together into one symbol. With most fonts, this can be accomplished by means of a plus or minus sign immediately following the word.</p>
 
         <!---html for the textbox-->
 
-        <div class="grid-item">
+        <div class="grid-item" style="grid-row: 2/6; grid-column: 2 / 4;">
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EZZ2NKDNNJ"></script>
         <script>
@@ -75,7 +92,7 @@
           padding: 3;
           border: 1;
           width: 100%;
-          height: auto;
+          height: 400px;
           font-family: linjapona4;
           font-size:50px;
         }
@@ -104,16 +121,19 @@
 </div>
     
     
-        <h2>Names</h2>
+        <h2 style="grid-row: 6/7; grid-column: 1 / 2;">Names</h2>
 
 
-        <p class="grid-item">sitelen pona has it's own way of writing names of people or places as well. As they are not official words, there is no recognizable symbol for these names. Instead, the name of the place or person is tokiponized (converted to the sounds that toki pona uses) and written in a collection of official words, sound by sound, tied to the first letter of each word in a heiroglyphic-like cartoushe. This is typically done with square brackets, with preceeding underscores in front of each inner word to extend the top and bottom of the cartoushe. As an example, jan Sonja could be typed as jan [_sama_o_noka_jan_a] to be rendered in sitelen pona.
+        <p class="grid-item" style="grid-row: 7/10; grid-column: 1 / 2; display: grid; grid-template-areas: 1fr 1fr;">sitelen pona has it's own way of writing names of people or places as well. As they are not official words, there is no recognizable symbol for these names. Instead, the name of the place or person is tokiponized (converted to the sounds that toki pona uses) and written in a collection of official words, sound by sound, tied to the first letter of each word in a heiroglyphic-like cartoushe. This is typically done with square brackets, with preceeding underscores in front of each inner word to extend the top and bottom of the cartoushe. As an example, jan Sonja could be typed as jan [_sama_o_noka_jan_a] to be rendered in sitelen pona.
 
-            The second way to render sitelen pona is through something called UCSUR. UCSUR is an allocation of unicode codepoints mapping to each word in toki pona. To type in UCSUR, you will need to have a special keyboard or software on your computer. It is out of scope of this page, but you can learn more <a href= https://github.com/Id405/sitelen-pona-ucsur-guide/blob/main/README.md]>here</a>.
+            The second way to render sitelen pona is through something called UCSUR. UCSUR is an allocation
+            of unicode codepoints mapping to each word in toki pona. To type in UCSUR, you will need to
+            have a special keyboard or software on your computer. It is out of scope of this page, but you
+            can learn more <a href= https://github.com/Id405/sitelen-pona-ucsur-guide/blob/main/README.md]>here</a>.        
         </p>
 
-        <img src="images/code.png" alt="Code Table">
-
+        <img src="images/code.png" alt="Code Table" style="grid-row: 7/10; grid-column: 2 / 4; height: 95%;">
+</div>
 
 </body>
 </html>
